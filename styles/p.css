@@ -10,6 +10,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .pt{
  color: #FD6E0A;
@@ -48,17 +49,64 @@ nav a{
 /* header related styles */
 .hst{
     background-color: bisque;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
     background-color: aliceblue;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner .pp{
     width: 500px;
+}
+
+.banner-hm{
+    font-size: 45px;
+    color: aquamarine;
+
+
+}
+
+.banner-hn{
+    font-size: 85px;
+    font-weight: 700px;
+}
+
+.banner-t{
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+/* about  section*/
+.ab{
+    padding:130px ;
+    border-radius: 10px;
+    background-color:  rgb(40, 37, 37);
+    margin: 130px 0;
+   
+}
+
+.st{
+    color: rgb(219, 39, 39);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.sd{
+    color: rgb(230, 196, 255);
+    text-align: center;
+    font-size: 10px;
+
 }
