@@ -33,6 +33,7 @@ nav li{
 nav a{
     text-decoration: none;
     color:black ;
+    
 }
 
 .bp{
@@ -43,4 +44,21 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+/* header related styles */
+.hst{
+    background-color: bisque;
+}
+
+.banner{
+    background-color: aliceblue;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .pp{
+    width: 500px;
 }
