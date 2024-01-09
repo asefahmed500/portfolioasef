@@ -52,10 +52,12 @@ nav a {
 /* header related styles */
 .hst {
     background-color: bisque;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'); /* Check the path */
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-size: cover; /* Add this line to ensure the image covers the entire background */
 }
+
 
 .banner {
     background-color: aliceblue;
@@ -69,7 +71,8 @@ nav a {
 }
 
 .banner .pp {
-    width: 500px;
+    width: 500px; 
+    margin: 100px;
 }
 
 .banner-hm {
